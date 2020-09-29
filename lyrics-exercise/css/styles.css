@@ -1,0 +1,14 @@
+body {
+    background-color: #ffeed1;
+    text-align: center;
+    line-height: 150%
+}
+.lauv {
+    color: navy;
+    font-weight: bold;
+}
+.title {
+    color: navy;
+    font-weight: bold;
+    font-size: 70pt;
+}
