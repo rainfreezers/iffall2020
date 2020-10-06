@@ -1,0 +1,67 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt
+}
+
+body {
+    background-color: #daf0ec;
+    margin: 10%
+}
+
+h1 {
+    color: #23c2a5;
+    font-size: 60pt
+}
+
+h3 {
+    color: #23c2a5
+}
+
+h5 {
+    font-size: 10pt;
+    color: salmon
+}
+
+section {
+    margin: 2.5em
+}
+
+.light {
+    font-weight: 200
+}
+
+.rem {
+    letter-spacing: 0.1rem
+}
+
+.em {
+    letter-spacing: 0.1em
+}
+
+.negem {
+    letter-spacing: -0.1em
+}
+
+.under {
+    text-decoration: underline
+}
+
+.line-through {
+    text-decoration: line-through
+}
+
+.overline {
+    text-decoration: overline
+}
+
+.upper {
+    text-transform: uppercase
+}
+
+.lower {
+    text-transform: lowercase
+}
+
+.capital {
+    text-transform: capitalize
+}
