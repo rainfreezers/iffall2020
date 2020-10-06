@@ -1,0 +1,38 @@
+body {
+    background-color: #ffeed1;
+    text-align: center;
+    line-height: 150%;
+    font-family: 'Tajawal', sans-serif
+}
+
+.pic {
+    text-align: center;
+    margin: 5%
+}
+
+.lauv {
+    color: navy;
+}
+
+.alessia {
+    color: #fc3d96
+}
+
+.title {
+    color: navy;
+    font-weight: bold;
+    font-size: 70pt;
+    line-height: 100%;
+    text-decoration: underline
+}
+
+.subtitle {
+    color: #fc3d96;
+    font-weight: bold;
+    font-size: 30pt;
+    line-height: 100%
+}
+
+.chorus {
+    color: coral;
+}
