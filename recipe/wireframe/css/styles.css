@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    max-width: 960px;
+    min-width: 320px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.ingredients{
+    width: 50%;
+}
+
+.preparation {
+    width: 50%
+}
+
+.grid {
+    list-style-type: none;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 640px) {
+    .grid {
+        display: flex;
+    }
+}
