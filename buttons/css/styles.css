@@ -1,0 +1,528 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_sardella {
+    display: block;
+    font-family: alternate-gothic-condensed-a, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    color: turquoise;
+    text-decoration: none;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    transition: all 0.3s;
+}
+
+a#btn_sardella span:nth-of-type(2n+2):hover {
+    color: navy;
+}
+
+a#btn_moo img:first-child {
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    width: 200px;
+}
+
+a#btn_moo img:last-child {
+    display: none;
+}
+
+a#btn_moo:hover img:first-child {
+    display: none;
+}
+
+a#btn_moo:hover img:last-child {
+    display: block;
+    width: 285px;
+    margin: auto;
+    margin-top: 60.5px;
+    margin-left: -13.5px;
+}
+
+a#btn_nike img:first-child {
+    display: inline-block;
+    margin: auto;
+    margin-top: 90px;
+    width: 200px;
+}
+
+a#btn_nike img:last-child {
+    display: none;
+}
+
+a#btn_nike:hover img:first-child {
+    display: none;
+}
+
+a#btn_nike:hover img:last-child {
+    display: block;
+    width: 195px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+a#btn_apple .fa-apple {
+    color: lightgray;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    position: relative;
+    margin-top: 70px;
+    transition: color 0.3s;
+}
+
+a#btn_apple .fa-apple:hover {
+    color: darkgray;
+}
+
+a#btn_apple:active .fa-apple{
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+a#btn_newyorker img {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 200px;
+    border: 1.5px solid white;
+    padding: 10px 28px 10px 28px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+a#btn_newyorker img:hover {
+    margin-top: 80px;
+    border-color: black;
+}
+
+a#btn_tesla img {
+    display: block;
+    margin: auto;
+    width: 80px;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+a#btn_tesla:hover img {
+    width: 100px;
+    border: 3px solid red;
+}
+
+a#btn_ideo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+a#btn_ideo:hover {
+    margin-top: 73px;
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+a#btn_ibm img {
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    width: 140px;
+    transition: all 0.3s;
+}
+
+a#btn_ibm:hover img {
+    width: 170px;
+}
+
+a#btn_npr img {
+    display: block;
+    margin: auto;
+    margin-top: 65px;
+    width: 150px;
+    transition: all 0.4s ease;
+}
+
+a#btn_npr:hover img {
+    width: 170px;
+}
+
+a#btn_lyft .fa-lyft {
+    color: magenta;
+    display: inline-block;
+    margin: auto;
+    margin-top: 60px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 10px 20px 7px 20px;
+    transition: box-shadow 0.2s ease;
+}
+
+a#btn_lyft .fa-lyft:hover {
+    color: rgb(201, 0, 201);
+    -webkit-box-shadow: 6px 6px 12px 0px rgba(255, 0, 255, 0.8);
+    -moz-box-shadow:    6px 6px 12px 0px rgba(255, 0, 255, 0.8);
+    box-shadow:         6px 6px 12px 0px rgba(255, 0, 255, 0.8);
+}
+
+a#btn_facebook .fa-facebook {
+    color: #1877f2;
+    display: inline-block;
+    margin: auto;
+    margin-top: 50px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 15px;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+a#btn_facebook .fa-facebook:hover {
+    color: #044fb1;
+    border-color: #1877f2;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(24, 119, 242, 0.7);
+    -moz-box-shadow:    6px 6px 5px 0px rgba(24, 119, 242, 0.7);
+    box-shadow:         6px 6px 5px 0px rgba(24, 119, 242, 0.7);
+}
+
+a#btn_samsung img:first-child {
+    position: absolute;
+    margin: auto;
+    margin-top: 75px;
+    margin-left: 40px;
+    width: 160px;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+a#btn_samsung img:last-child {
+    opacity: 0;
+    position: relative;
+    width: 220px;
+    margin-top: 83px;
+    margin-left: 10px;
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+a#btn_samsung:hover img:first-child{
+    opacity: 0;
+}
+
+a#btn_samsung:hover img:last-child {
+    opacity: 1;
+}
+
+a#btn_insta .fa-instagram {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 100px;
+    padding: 20px 25px 20px 25px;
+    color: white;
+    background: #feda75;
+    background: -moz-linear-gradient(45deg,  #feda75 0%, #fa7e1e 26%, #d62976 51%, #962fbf 77%, #4f5bd5 100%);
+    background: -webkit-linear-gradient(45deg,  #feda75 0%,#fa7e1e 26%,#d62976 51%,#962fbf 77%,#4f5bd5 100%);
+    background: linear-gradient(45deg,  #feda75 0%,#fa7e1e 26%,#d62976 51%,#962fbf 77%,#4f5bd5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feda75', endColorstr='#4f5bd5',GradientType=1 );
+    transition: color 0.3s;
+}
+
+a#btn_insta:hover .fa-instagram {
+    text-decoration: none;
+    color: purple;
+    background: white;
+}
+
+a#btn_oldnavy img {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 200px;
+    transition: all 0.3s;
+}
+
+a#btn_oldnavy img:hover {
+    box-shadow: 0 5px 0 0 #163E69;
+}
+
+a#btn_bissingers img {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 90px;
+    width: 170px;
+}
+
+a#btn_bissingers:hover {
+    box-sizing: border-box;
+    border: 2px solid rgb(53, 37, 15);;
+    padding: 10px;
+    margin-top: 60px;
+    height: 80px;
+    transition: all 0.3s;
+}
+
+a#btn_hsn img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 150px;
+    transition: all 0.8s;
+}
+
+a#btn_hsn:hover img {
+    transform: rotate(360deg);
+}
+
+a#btn_MK {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.3s;
+    color: black;
+}
+
+a#btn_MK:hover {
+    color: gold;
+    box-shadow: 5px 5px 0 0 gold;
+}
+
+a#btn_fitbit {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: darkslategray;
+    transition: 0.3s;
+}
+
+a#btn_fitbit img {
+    display: inline-block;
+    width: 40px;
+    padding-right: 8px;
+    transition: 0.5s ease-in-out;
+}
+
+a#btn_fitbit:hover img {
+    transform: translate(170px, 0);
+}
+
+a#btn_fitbit:hover {
+    color: rgb(14, 177, 177);
+}
+
+a#btn_stjude {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.3s;
+    text-align: left;
+    color: darkgray;
+}
+
+a#btn_stjude i {
+    float: left;
+    color: maroon;
+    font-size: 50px;
+    margin-right: 9px;
+}
+
+a#btn_stjude:hover {
+    color: maroon;
+}
+
+a#btn_foreflight {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+a#btn_foreflight i {
+    color: skyblue;
+    font-size: 38px;
+    margin-right: 9px;
+    transform: rotate(-90deg);
+    transition: all 0.5s;
+}
+
+a#btn_foreflight:hover i {
+    transform: translate(0, 0px);
+}
