@@ -1,0 +1,266 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.03em;
+    line-height: 20px;
+    background: #396f6e;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 15px 20px 20px 20px; 
+    padding-right: 8px;
+    font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    max-width: 100%;
+  }
+
+li a:hover {
+    font-weight: 900;
+}
+
+.topcenter a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bottom {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    list-style-type: none;
+}
+
+.bottomcenter a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.homepic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.homepic img:first-child {
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+    color: #ffd333;
+    text-decoration: underline;
+    text-decoration-color: #e5595f;
+    text-underline-offset: 7px;
+}
+
+/* h2 {
+    display: inline;
+    float: right;
+    font-size: 50px;
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffd333;
+} */
+
+.speaker {
+    color: #e5595f;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #e5595f;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.headerpic img {
+    padding-top: 80px;
+    display: block;
+    max-height: 750px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.body {
+    display: flex;
+    list-style-type: none;
+}
+
+#concept {
+    margin-top: 100px;
+}
+
+.pic img {
+    display: inline;
+    float: left;
+    max-width: 90%;
+    height: auto;
+    padding-top: 190px;
+    margin-left: -40px;
+}
+
+.pic2 img {
+    display: inline;
+    float: left;
+    max-width: 90%;
+    height: auto;
+    padding-top: 50px;
+    margin-left: -40px;
+}
+
+.pic3 img {
+    display: inline;
+    float: left;
+    max-width: 120%;
+    height: auto;
+    padding-top: 20px;
+    margin-left: -40px;
+}
+
+.pagetext {
+    margin: 175px 90px 175px -30px;
+    max-width: 45%;
+    min-width: 400px;
+    display: inline-block;
+}
+
+.pagetext1 {
+    margin: 175px 90px 0px -30px;
+    max-width: 45%;
+    min-width: 400px;
+    display: inline-block;
+}
+
+.pagetext2 {
+    margin: 30px 90px 30px -30px;
+    max-width: 45%;
+    min-width: 400px;
+    display: inline-block;
+}
+
+.pagetext3 {
+    margin: 0px 90px 175px 100px;
+    max-width: 45%;
+    min-width: 400px;
+    display: inline-block;
+}
+
+.awardquote {
+    border: 2px solid #ffd333;
+    padding: 20px 30px;
+    margin: auto;
+}
+
+.sources:hover {
+    color: #ffd333;
+    
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+@media (max-width: 1200px) {
+    li {
+        font-size: 8px;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        text-align: center;
+    }
+
+    .nav {
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-left: -45px;
+    }
+
+    .body {
+        display: inline-block;
+        margin-top: -90px;
+        margin-bottom: 80px;
+        justify-content: center;
+    }
+
+    .pic, .pic2, .pic3 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+
+    .pagetext, .pagetext1, .pagetext2, .pagetext3 {
+        min-width: 300px;
+        margin: 2%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 100%;
+    }
+
+    body {
+        font-size: 9pt;
+    }
+}
